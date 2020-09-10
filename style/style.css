@@ -1,0 +1,196 @@
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 25px;
+    width: 60%;
+    height: 100vh;
+}
+
+/* Phone */
+
+.instagram-phone {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone img {
+    
+    height: 50rem;
+    
+}
+
+/* LOGIN */
+
+.instagram-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 43%;
+    min-height: 34rem;
+}
+
+.instagram-login .group {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    padding: 1.3rem 0;
+    margin: 0.5rem;
+}
+
+
+
+.instagram-login .group .instagram-logo img {
+    height: 5rem;
+    margin-bottom: 1rem;
+}
+
+.instagram-login .group .form-login {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.instagram-login .group .form-login input {
+    padding: 0.6rem;
+    margin-bottom: 0.4rem;
+    border: 1px solid lightgray;
+    width: 18rem;
+    font-size: 0.9rem;
+
+}
+
+.instagram-login .group .button button {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 18rem;
+    background: #CEECF5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+
+
+}
+
+.instagram-login .group .ou {
+
+    margin-top: 1.5rem;
+    font-size: 12px;
+    color: rgb(134, 134, 134);
+}
+
+.instagram-login .group .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.instagram-login .login-facebook {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-login .login-facebook img {
+    height: 1.5rem;
+    width: 2rem;
+    
+}
+
+.instagram-login .group .esqueceu-senha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 11px;
+    color: #365A7D;
+   padding: 1.3rem 0;
+}
+
+
+.instagram-login .group .cadastrar {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.instagram-login .group .cadastrar .criar-conta {
+
+    margin-right: 0.3rem;
+    
+}
+
+/* Download-app*/
+
+.instagram-login .get-the-app .obter-aplicativo {
+    
+    margin-top: 0.7rem;
+
+}
+
+.instagram-login .get-the-app {
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.instagram-login .get-the-app .download {
+    
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1rem;
+}
+
+.app-download img {
+    width: 15rem;
+    height: 5rem;
+    
+}
+
+
